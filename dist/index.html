@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlId" style="font-size: 10px">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap">
+
+     <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@200&family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+     <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@200&family=Prompt:wght@200&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV -- Fabio</title>
+  </head>
+  <body>
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <symbol id="square">
+        <g id="Frame1">
+          <defs>
+            <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#dbc92a" />
+              <stop offset="100%" stop-color="#000000" />
+            </linearGradient>
+          </defs>
+          <defs>
+            <linearGradient id="gradient2" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stop-color="#000000" />
+              <stop offset="100%" stop-color="#58603a" />
+            </linearGradient>
+          </defs>
+
+          <rect id="Rectangle1" x="0" y="0" width="20" height="20"/>
+          <line id="Line1" x1="0" y1="0" x2="20" y2="0" stroke="white" />
+          <line id="Line2" x1="20" y1="0" x2="20" y2="20" stroke="white" />
+          <line id="Line3" x1="20" y1="20" x2="0" y2="20" stroke="white" />
+          <line id="Line4" x1="0" y1="20" x2="0" y2="0" stroke="white" />
+        </g>
+      </symbol>
+    </svg>
+    <script>
+var cont = document.getElementById('htmlId');
+console.log(cont);
+function changeSizeByBtn(size) {
+  // Set value of the parameter as fontSize
+  cont.style.fontSize = size + 'px'; // <- HERE
+}
+    </script>
+    <button type="button" onclick="changeSizeByBtn(8)" name="btn1">-A</button>
+    <button type="button" onclick="changeSizeByBtn(10)" name="btn1">A</button>
+    <button type="button" onclick="changeSizeByBtn(12)" name="btn1">+A</button>
+
+    <!--HEADER-->
+    <div class="header">
+      <div class="header__container">
+        <div class="header__container__main">
+          <div class="header__container__main-name">Fabio Privitera</div>
+          <div class="header__container__main_img">
+            <svg viewBox="-120 100 650 625">
+              <defs>
+                <clipPath id="shape" >
+                  <path id="shapeinside"
+                    d="M 109 120 c 0 0 163 46 221.988 20.39 s 34 -97 34 -97 s 39.138 -16.341 70 -11 c 26.406 4.57 66.618 73.939 105 138 c 37.199 62.089 73 119 73 119 s 10.398 18.504 0 44 c -8.608 21.105 -22.685 41.421 -73.468 178.064 C 478.503 601.285 444.605 570.776 366.639 601.284 s -94.915 -147.457 -192 9 l -5 1 c -6.39 -35.423 -34.254 15.226 -60.675 10.088 c -36 -7 33.946 -165.85 -48.249 -32.676 S 58.164 360.606 160 327 S 60 220 60 220 s -8.444 -34 0 -52 C 77.666 130.345 219.181 267.386 109 120 z"
+                  />
+                </clipPath>
+              </defs>
+              <image
+
+                width="643"
+                height="643"
+                clip-path="url(#shape)"
+                xlink:href="./assets/photo/profilefabio.jpg"
+              ></image>
+            </svg>
+
+
+          </div>
+        </div>
+        <div class="header__container-textundername">Full-stack Developer/Designer</div>
+      </div>
+      <div class="header__container-contactinfos">
+        <div class="material-symbols-outlined">call</div>
+        <div class="header__container-informations">+358449552431</div>
+        <div class="material-symbols-outlined address">home</div>
+        <div class="header__container-address_info">
+          33720, Tampere, Finland
+        </div>
+
+        <div class="material-symbols-outlined email">alternate_email</div>
+        <div class="header__container-email_informations">
+          fabio_privitera@yahoo.it
+        </div>
+        <div class="material-symbols-outlined linkedin">link</div>
+        <div class="header__container-linkedin_informations"><a href="https://www.linkedin.com/in/fabio-privitera-28183696/" target="_blank">linkedin</a
+          >
+        </div>
+      </div>
+      <!--SKILLS -->
+      <div class="skills_container">
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient) />
+            </svg>
+             <div class="singleskill reactnative">React Native</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+            </svg><div class="singleskill">Android</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+            </svg> <div class="singleskill">Kotlin</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient2) />
+            </svg> <div class="singleskill">Node.JS</div>
+          </div>
+
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient) />
+            </svg><div class="singleskill">Javascript</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0"  fill=url(#gradient) />
+            </svg><div class="singleskill">Jetpack Compose</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient2) />
+            </svg><div class="singleskill">React.JS</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="66" y="0" fill=url(#gradient) />
+            </svg><div class="singleskill">CSS</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient2) />
+            </svg> <div class="singleskill">HTML</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+            </svg> <div class="singleskill">Mongo db</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+            </svg>   <div class="singleskill">Database Design</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+            </svg>  <div class="singleskill">SVG</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+            </svg><div class="singleskill">SQL</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="44" y="0" fill=url(#gradient) />
+            </svg><div class="singleskill">Git</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+            </svg> <div class="singleskill">Express.js</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient) />
+            </svg><div class="singleskill">Three.js</div>
+          </div>
+
+        </div>
+        <div class="skills_container__inner">
+          <div class="littlesquarecontainer">
+            <svg id="square2"
+              viewBox="0 0 100 20"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <use xlink:href="#square" class="ic-blue" x="0" y="0" fill=url(#gradient2) />
+              <use xlink:href="#square" class="ic-blue" x="22" y="0" fill=url(#gradient2) />
+            </svg><div class="singleskill">Java</div>
+          </div>
+
+        </div>
+      </div>
+      <!--USEFUL LINKS -->
+      <div class="linkscontainer">
+        <div class="linksheader">Projects</div>
+         <div class="usefullink">
+          <a href="https://animated-piroshki-79307c.netlify.app/" target="_blank"
+            >A Figma project turns into a real website </a
+          >
+        </div>
+
+
+
+         <div class="usefullink">
+          <a href="https://thelibrary-9jq2.onrender.com/" target="_blank"
+            >A Library, Spring + TypeScript + React (database expires March 2024)</a
+          >
+        </div>
+        <div class="usefullink">
+          <a href="https://languagelearn.onrender.com" target="_blank"
+            >Full-Stack App to learn languages</a
+          >
+        </div>
+        <div class="usefullink">
+          <a href="https://cosmic-naiad-50eb0b.netlify.app/" target="_blank"
+            >To-Do List App</a
+          >
+        </div>
+        <div class="usefullink">
+          <a href="https://helsinki-city-bike.onrender.com" target="_blank"
+            >a full stack demo for Helsinki city bike</a
+          >
+        </div>
+         <div class="usefullink">
+          <a href="https://www.credly.com/badges/dd6aa5e1-c7c1-45c6-bdc5-115397ad150a/linked_in?t=s0kj9n" target="_blank"
+            >AWS re/start graduate</a
+          >
+        </div>
+         <div class="usefullink">
+          <a
+            href="https://developers.google.com/profile/u/developears"
+            target="_blank"
+            >android developer profile</a
+          >
+        </div>
+        <div class="usefullink">
+          <a href="https://github.com/dobby-ide" target="_blank"
+            >my Github Repositories</a
+          >
+        </div>
+
+      </div>
+    </div>
+
+    <!--PROFESSIONAL RECAP -->
+
+    <div class="professional">
+      <div class="professional_header">Professional Summary</div>
+      <div class="professional_summary">
+        Reliable employee seeking Trainee or Junior Developer position. Offering
+        excellent communication, good judgment, flexibility to adapt to any new tech-stack opportunity.
+        <p>
+          To seek for the place where I can develop and practice my skills further.
+        </p>
+
+        <p>
+          10+ fully fledged web-app
+        </p>
+        <p>
+          15+ academic frontend projects
+        </p>
+        <p>
+          4+ academic mobile apps
+        </p>
+        <p>
+          3+ years of proven coding experience
+        </p>
+        <p>
+          different paths of professional experience in designing both as a chef (commercial and aestethical design of menus) and graphic designer (logo design, vectorial and raster image for PVC based comercials)
+        </p>
+      </div>
+    </div>
+
+    <!--EDUCATION -->
+
+    <div class="education_header">Education</div>
+    <div class="education">
+      <div class="education_date">
+        <div class="date">February 2023 - July 2023</div>
+        <div class="education_place">
+         Integrify Full-Stack Academy
+        </div>
+        <div class="education_courseheader">FS14</div>
+        <div class="education_course">
+          <div class="education_coursestaken">TypeScript</div>
+          <div class="education_coursestaken">Accessibility</div>
+          <div class="education_coursestaken">ReactJs</div>
+          <div class="education_coursestaken">Redux</div>
+          <div class="education_coursestaken">Database with PostgreSQL and Mongo</div>
+          <div class="education_coursestaken">Version-Control and Testing</div>
+          <div class="education_coursestaken">Java with Spring</div>
+          <div class="education_coursestaken">AWS</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="education">
+      <div class="education_date">
+        <div class="date">September 2021 - December 2022</div>
+        <div class="education_place">
+          TAMK, Tampere University of Applied Science
+        </div>
+        <div class="education_courseheader">Full-Stack Development</div>
+        <div class="education_course">
+          <div class="education_coursestaken">EcmaScript</div>
+          <div class="education_coursestaken">UI-Technologies</div>
+          <div class="education_coursestaken">React.js</div>
+          <div class="education_coursestaken">Backend with Node.js</div>
+          <div class="education_coursestaken">Database with SQL and no-sql</div>
+          <div class="education_coursestaken">Version-Control and Testing</div>
+          <div class="education_coursestaken">Java</div>
+          <div class="education_coursestaken">React Native</div>
+          <div class="education_coursestaken">Kotlin for Android</div>
+          <div class="education_coursestaken">Swift for IoS</div>
+        </div>
+      </div>
+    </div>
+    <!--FURTHER ON EDUCATION -->
+
+    <div class="furthereducation">
+      <div class="furthereducation_header">Education Journey and Passion for Programming</div>
+      <div class="furthereducation_text">
+       <p class="capitalize"> My educational journey began with graduating from Scientific Liceo High School in Italy. Although my initial interests were diverse, a pivotal moment occurred when I delved into my first HTML course. This experience ignited my fascination with computers and programming, leading me to explore Flash and ActionScript. Despite the passage of time, my passion endured.
+       </p>
+<p class="capitalize">
+Life's twists and turns led me to explore graphic design and even venture into the culinary world as a chef. However, my underlying curiosity and love for programming persisted. I took strides into the world of Java through courses on platforms like Coursera, Udemy, and MOOC. This marked the true commencement of my journey into the captivating realm of programming.</p>
+<p class="capitalize">
+Enrolling in Computer Science courses, encompassing Programming fundamentals, Programming I, Programming II, and Databases I, revealed my hunger for deeper knowledge. Eager to broaden my horizons, I scoured opportunities at the University of Tampere. Discovering a course aligned with my aspirations, offered by the Ministry of Unemployment, I embarked on the rigorous journey, completing the three main modules.</p>
+<p class="capitalize">
+A significant milestone in my pursuit of excellence was the intensive full-stack development course at Integrify. This experience proved demanding yet incredibly rewarding, providing valuable insights into my strengths and areas for improvement. The relentless pursuit of improvement remains a constant theme in my journey.</p>
+<p class="capitalize">
+Balancing my commitment to coding, I continually nurture existing projects, absorb knowledge from diverse sources, and draw inspiration from the community. My aspiration is not only personal growth but also to contribute meaningfully to collaborative projects, leveraging my skills and insights.
+</p>
+
+      </div>
+    </div>
+
+    <!--employing -->
+    <div class="employement">
+      <div class="noteheader">IMPORTANT NOTES</div>
+      <div>
+        I am entitled to work try-outs and pay-subsidy. Please find related
+        informations
+        <a target="_blank"
+          href="https://tyomarkkinatori.fi/en/personal-customers/search-for-work/services-to-support-job-seeking"
+          >here</a
+        >
+      </div>
+    </div>
+    <!-- hitwebcounter Code START -->
+    <a class="counter" href="https://www.hitwebcounter.com" target="_blank">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=8009935&style=0006&nbdigits=3&type=ip&initCount=0"
+        title="Free Counter"
+        alt="web counter"
+        border="0"
+    /></a>
+     <script src="bundle.js"></script>
+  </body>
+
+</html>

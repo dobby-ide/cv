@@ -1,0 +1,26 @@
+.linksheader{
+  padding:3px;
+  letter-spacing: 2px;
+  font-family: Poppins;
+  background-color: #D8C399;
+}
+.linkscontainer{
+  grid-row-start: 3;
+  grid-column-start: 2;
+  padding:4px;
+
+  line-height:30px;
+  display:grid;
+  position:relative;
+  width:296px;
+
+}
+.usefullink{
+  border-bottom:1px solid gray;
+  font-size: 0.8rem;
+  padding:4px;
+}
+.usefullink a{
+ text-decoration: none;
+ color:black;
+}

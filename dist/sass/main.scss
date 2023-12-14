@@ -1,0 +1,89 @@
+@import "base/animations.scss";
+@import "components/header.scss";
+@import "components/professional.scss";
+@import "components/education.scss";
+@import "components/skills.scss";
+@import "components/links.scss";
+
+*{
+  font-size:16px;
+  font-family:  'Roboto', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+.material-symbols-outlined {
+  height:30px;
+  margin-top:2px;
+  padding-top:0px;
+  background-color: rgb(249, 214, 17);
+  width:70px;
+   grid-row-start: 1;
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+.address{
+   grid-row-start: 2;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.email{
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.linkedin{
+
+  grid-row-start: 4;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.noteheader{
+  padding:2px;
+  background-color: rgb(175, 49, 0);
+  font-size: 1.0rem;
+}
+.employement{
+  margin-left: 41%;
+  transform: translate(-42%);
+  font-size:0.9rem;
+  position:relative;
+  width:400px;
+
+}
+.counter{
+
+ position:absolute;
+ margin-top: 10rem;
+ margin-left:50%;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":"AAAWA,SAASC,eAAe","sources":["webpack://curriculum/./dist/script.js"],"sourcesContent":["var cont = document.getElementById('htmlId');\n\nfunction changeSizeByBtn(size) {\n  // Set value of the parameter as fontSize\n  cont.style.fontSize = size + 'px'; // <- HERE\n}\n"],"names":["document","getElementById"],"sourceRoot":""}

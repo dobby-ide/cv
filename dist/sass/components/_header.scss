@@ -1,0 +1,159 @@
+.header {
+  position: relative;
+  margin-left: 42%;
+  transform: translateX(-42%);
+  display: grid;
+  gap: 22px;
+  width: 500px;
+  animation: moveInLeft 1s;
+  &__container {
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding-left: 2rem;
+
+    font-weight: 400;
+
+    width: 500px;
+    height: 110px;
+    background: linear-gradient(
+      to right bottom,
+      rgb(158, 39, 39) 29%,
+      rgb(0, 0, 0) 66%
+    );
+
+    color: #ffffff;
+    -webkit-background-clip: text;
+    &__main{
+      width:500px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      &_img{
+
+        width:120px;
+        height:80px;
+        overflow:hidden;
+         filter:sepia(12);
+      }
+  //        &-photo{
+  //          padding: 0;
+  // background-image: url("../../assets/photo/profilefabio.jpg");
+  // background-size: cover;
+  // width:300px;
+  // height: 300px;
+  // -webkit-clip-path: url(#clip);
+  // clip-path: url(#clip);
+
+
+  //       filter:sepia(1);
+  //       width:5rem;
+  //       height:10rem;
+  //       margin-right:-1.2rem;
+
+  //     }
+       &-name {
+font-family: Raleway;
+      border-radius: 5px;
+      padding: 1rem;
+      background: linear-gradient(
+        to right ,
+        rgba(216, 216, 216, 0.247) 12%,
+        transparent 33%,transparent 66%,rgba(198, 167, 106, 0.935) 100%
+      );
+      font-weight: 300;
+      font-size: 30px;
+      color: black;
+      transition: all.2s;
+      letter-spacing: 8px;
+    }
+    }
+
+    &-textundername {
+      padding:4px;
+      background: linear-gradient(
+        to right,
+        rgb(101, 101, 101) 40%,
+        rgb(222, 222, 222) 65%,
+        rgba(198, 167, 106, 0.935),
+      );
+      margin-top: 2px;
+      border-top: 2px solid rgb(200, 167, 104);;
+      letter-spacing: 5px;
+      color: rgb(210, 197, 197);
+      font-weight: 100;
+      font-size: 10px;
+    }
+    &-contactinfos {
+      align-items: baseline;
+      justify-content: start;
+
+      background: linear-gradient(
+        to right bottom,
+        rgb(255, 255, 255) 50%,
+        rgb(176, 167, 167)
+      );
+      display: grid;
+      grid-gap: 0px;
+      height:auto;
+      text-align: right;
+      align-items: right;
+      width: 300px;
+
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    &-informations {
+      margin-top: 1rem;
+      border-bottom: 1px solid rgb(34, 131, 42);
+      padding: 2px;
+     margin-left:20px;
+      font-size: 1.3rem;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+
+    &-address_info {
+      font-size: 1.3rem;
+      border-bottom: 1px solid rgb(151, 35, 35);
+      margin-left:20px;
+      margin-top: 1rem;
+      grid-row-start: 2;
+      grid-row-end: 2;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+
+    &-email_informations {
+      border-bottom: 1px solid rgb(35, 18, 165);
+      font-size: 1.3rem;
+      margin-left:20px;
+      margin-top: 1.4rem;
+      grid-row-start: 3;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+    &-linkedin_informations {
+      border-bottom: 1px solid rgb(35, 18, 165);
+      font-size: 1.3rem;
+      margin-left:20px;
+      margin-top: 1rem;
+      grid-row-start: 4;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 2;
+    }
+  }
+}
+#shape{
+  stroke-width:10;
+   stroke:red;
+  stroke:rgb(0, 0, 0);
+}
