@@ -251,7 +251,7 @@
   grid-column-start: 2;
   position: relative;
   padding: 6px;
-  color: white;
+  color: #181717;
   margin-left: 65%;
   transform: translateX(-65%);
   background-image: linear-gradient(to right bottom, #dbc92a 29%, #58603a 66%);
@@ -304,9 +304,16 @@
   text-decoration: none;
   color: black; }
 
-* {
+*, html {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth !important; }
+
+html:focus-within {
+  scroll-behavior: smooth; }
+
+body {
+  scroll-behavior: smooth !important; }
 
 a {
   text-decoration: none; }

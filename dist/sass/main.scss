@@ -5,9 +5,17 @@
 @import "components/skills.scss";
 @import "components/links.scss";
 
-*{
+*,html{
   font-size:16px;
   font-family:  'Roboto', sans-serif;
+
+   scroll-behavior: smooth !important;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+body{
+  scroll-behavior: smooth !important;
 }
 a{
   text-decoration: none;

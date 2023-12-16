@@ -4,7 +4,7 @@
   grid-column-start: 2;
  position:relative;
   padding:6px;
-  color:white;
+  color:rgb(24, 23, 23);
   margin-left: 65%;
 transform: translateX(-65%);
    background-image:linear-gradient( to right bottom, #dbc92a 29%,#58603a 66%);
@@ -14,6 +14,7 @@ transform: translateX(-65%);
   grid-template-rows: repeat( auto, 2fr);
   grid-template-columns: repeat(auto, 1fr);
   grid-gap: 1px;
+
 
 }
 
