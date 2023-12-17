@@ -1,0 +1,37 @@
+.photosidebar{
+z-index: 200;
+overflow: hidden;
+	position:fixed;
+	top: 50px;;
+	left:0;
+
+	width: 300px;
+	height:800px;
+	background-color: rgba(43, 151, 115, 0.327);
+	&__card{
+
+
+		height:800px;
+width:300px;
+
+background: #ffffff;
+	}
+
+}
+.photosidebar__relcontainer{
+
+	display:flex;
+flex-direction: row;
+	width: 2100px;
+	height:700px;
+
+}
+.photos{
+	width:300px;
+	height:auto;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(212, 212, 212);
+  }
+}
